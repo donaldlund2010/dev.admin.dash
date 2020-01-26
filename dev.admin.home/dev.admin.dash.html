@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vuex"></script>
+  <link rel="stylesheet" type="text/css"
+    href="C:/Users/DonLundgren/Documents/dev.admin.dash/dev.admin.home/dev.admin.dash.css" />
+  <link href="Styles/output.css" type="text/css" rel="stylesheet" />
+  <title>WFGRP Admin Dashboard</title>
+</head>
+
+<body>
+  <header class="header">
+    <a id="logout" href="#Logout">Logout</a>
+    <img class="logo" src="logo_only.png" alt="The Workforce Group" id="logo" />
+  </header>
+  <div class="sidebar">
+    <a href="C:/Users/DonLundgren/Documents/dev.admin.dash/dev.admin.home/dev.admin.dash.html">Home</a>
+    <a href="#Users">Users</a>
+    <a href="C:/Users/DonLundgren/Documents/dev.admin.dash/dev.intergration.portal/dev.intergration.portal.html">Intergrations
+      Portal</a>
+    <a href="#Help">Help</a>
+  </div>
+  <div id="container1"
+    class="bg-container-1 absolute w-80 text-center shadow-lg rounded-lg bg-white"
+    <form>
+      <h1 class="font-bold text-2xl border-b-2 border-black">Intergration Portal</h1>
+      <p>Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+        <div id="app">
+          <p v-if="seen">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. </p>
+        <p><button class="text-blue-400 underline" @click="seen = !seen">Details</button></p>
+        </div>
+        <input class="dp-block bg-lightgreen dp-hover bottom-0 m-5" value="Intergrations Portal" type="button"
+          onclick="window.open('https://integrations.theworkforcegroup.org/admin/tasks')" />
+    </form>
+  
+  </div>
+  <div id="container2"
+    class="bg-container-2  absolute w-80 text-center border border-solid border-black rounded-lg bg-white">
+    <form>
+      <h1 class="font-bold text-2xl">Google</h1>
+      <section class="sectionone ">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+      </section>
+      <input class="dp-block bg-lightgreen dp-hover bottom-0" value="Google" type="button"
+        onclick="window.open('https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwip0YOfwprnAhVQvZ4KHQ8SAVUQPAgH')" />
+    </form>
+  </div>
+  <script src="C:/Users/DonLundgren/Documents/dev.admin.dash/dev.admin.home/dev.admin.dash.js"></script>
+</body>
+
+</html>

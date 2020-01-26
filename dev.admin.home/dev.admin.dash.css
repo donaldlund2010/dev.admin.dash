@@ -1,0 +1,139 @@
+body {
+  background: rgb(235, 232, 232);
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.267);
+  font-weight: bold;
+  color: #2196f3;
+  font-size: 18px;
+  position: relative;
+  text-align: right;
+  padding: 0px;
+}
+
+#logo {
+  padding: 6px 8px 6px 16px;
+  width: auto;
+  height: auto;
+}
+
+#logout {
+
+  font-weight: bold;
+  color: #2196f3;
+  font-size: 18px;
+  float: right;
+  top: 50%;
+  padding: 25px;
+}
+
+.logout:hover {
+  color: #000;
+}
+
+.sidebar {
+  display: Inline-block;
+  min-width: 150px;
+  height: 100%;
+  position: fixed;
+  top: 92px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.151);
+  padding: 10px 9px 10px 9px;
+  list-style: none;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196f3;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #000;
+}
+
+/* Start of button code */
+.bg-container-1 {
+  top: 255px;
+  left: 320px;
+}
+
+.bg-container-2 {
+  top: 255px;
+  left: 720px;
+}
+
+.sectionone {
+  background: rgba(255, 255, 255, 0.493);
+  height: 300px;
+  width: auto;
+  border: black;
+  border-width: 5px;
+
+
+  overflow: hidden;
+}
+
+.dp-hover:hover {
+  background: rgba(255, 255, 255, 0.493);
+  color: #000;
+}
+
+.dp-block {
+  min-width: 200px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 6px 6px 5px #ffffff;
+  -webkit-box-shadow: 0px 5px 4px #999;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 80%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.bg-lightgreen {
+  background: rgb(133, 211, 146);
+}
+
+.login {
+  list-style: none;
+  font-weight: bold;
+  color: #2196f3;
+  font-size: 18px;
+  float: right;
+  padding: 35px 35px 35px 35px;
+}
+
+.login:hover {
+  color: #000;
+}
+
+.container3 {
+  background: rgba(0, 0, 0, 0.493);
+  height: 150px;
+  width: 200px;
+  border: black;
+  border-width: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  text-align: center;
+}
+
+.bg-submit {
+  background: rgb(133, 211, 146);
+  padding: 5px;
+  text-align: center;
+  color: rgb(19, 13, 13);
+  font-size: 12px;
+  margin-top: 15px;
+}
