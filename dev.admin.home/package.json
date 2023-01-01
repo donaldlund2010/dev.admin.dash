@@ -4,7 +4,7 @@
   "description": "",
   "main": "admin_dashboard.js",
   "dependencies": {
-    "gatsby-plugin-postcss": "^2.1.19"
+    "gatsby-plugin-postcss": "^6.3.0"
   },
   "devDependencies": {
     "tailwindcss": "^1.1.4"
